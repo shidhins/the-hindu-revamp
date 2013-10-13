@@ -1,11 +1,11 @@
 the-hindu-revamp
 ================
 
-A cleaner interface for a better reading experience of India's most trusted newspaper. No configurations, just [get the extension][https://chrome.google.com/webstore/detail/the-hindu-revamp/iljpefbhclkoadkooeidbkkmfgcmmmok/details] and continue reading thehindu.com. Only better this time !
+A cleaner interface for a better reading experience of India's most trusted newspaper. No configurations, just [get the extension](https://chrome.google.com/webstore/detail/the-hindu-revamp/iljpefbhclkoadkooeidbkkmfgcmmmok/details) and continue reading thehindu.com. Only better this time !
 
 ###Installation
 
-Get the chrome add-on [here][https://chrome.google.com/webstore/detail/the-hindu-revamp/iljpefbhclkoadkooeidbkkmfgcmmmok/details]
+Get the chrome add-on [here](https://chrome.google.com/webstore/detail/the-hindu-revamp/iljpefbhclkoadkooeidbkkmfgcmmmok/details)
 
 ###Current State
 
