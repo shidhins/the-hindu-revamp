@@ -1,0 +1,161 @@
+div.rel-block-news h3 a {
+    line-height: 27px !important;
+    font-size: 16px !important;
+}
+
+p.body {
+    font-size: 17px !important;
+    line-height: 26px !important;
+}
+
+#container {
+    width: 100% !important;
+}
+
+#left-column {
+    width: 60% !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-left: 3% !important;
+    margin-right: 3% !important;
+}
+
+div.article-text {
+    width: 100% !important;
+}
+
+.jcarousel-clip.jcarousel-clip-horizontal {
+    margin: 0 auto !important;
+}
+
+#right-column {
+    width: 30% !important;
+    margin-left: 2% !important;
+    padding-right: 0 !important;
+    margin-right: 2% !important;
+    padding-left: 0 !important;
+}
+
+a.block-more {
+    float: left !important;
+    padding-left: 200px !important;
+    font-size: 13px !important;
+}
+
+body {
+    font-size: 14px !important;
+}
+
+#right-column a h3 {
+    font-size: 18px !important;
+    font-weight: bold !important;
+}
+
+#right-column span.s-link {
+    font-size: 18px !important;
+    font-weight: bold !important;
+}
+
+div.smltitle1 h3 a {
+    font-size: 15px !important;
+}
+
+div.smltitle h3 a {
+    font-size: 15px !important;
+}
+
+div.right-touts.photo-gallery h5 {
+    font-size: 18px !important;
+    font-weight: bold !important;
+}
+
+#show-link h3 a {
+    font-size: 15px !important;
+}
+
+div.commentspan a {
+    font-size: 13px !important;
+}
+
+div.tab2.tab h3 a {
+    font-size: 13px !important;
+}
+
+div.tab1.tab h3 a {
+    font-size: 13px !important;
+}
+
+.todays-paper span.s-link {
+    display: inline !important;
+ }
+div.todays-paper img {
+    width: 27% !important;
+    margin-right: 3% !important;
+ }
+div.todays-paper a {
+    width: 60% !important;
+    padding-left: 10% !important;
+    line-height: 24px !important;
+    font-size: 14px !important;
+ }
+#nav-bar {
+    width: 100 !important;
+    padding-left: 10% !important;
+    padding-right: 10% !important;
+ }
+#subnav-bar {
+    width: 100% !important;
+    padding-left: 10% !important;
+    padding-right: 10% !important;
+ }
+div.article-links a {
+    font-size: 14px !important;
+ }
+#slidebox {
+    width: 33% !important;
+ }
+div.slide-headlines h3 a {
+    font-size: 15px !important;
+ }
+div.slider-lead {
+    font-size: 14px !important;
+ }
+#slidebox h4 {
+    font-size: 12px !important;
+ }
+#articleKeywords p a {
+    font-size: 15px !important;
+ }
+#headerlogo a img {
+    margin-left: 15% !important;
+ }
+ #img-gallery #gallery {
+    margin-left: auto !important;
+    margin-right: auto !important;
+ }
+h3.headline-links , h3.headline-links a {
+    font-size: 14px !important;
+ }
+div.articleLeadSpace h2 {
+    font-size: 17px !important;
+ }
+div.dateline {
+    font-size: 14px !important;
+ }
+#multimedia-carousel h3 a {
+    font-size: 13px !important;
+ }
+#carousel div.s-link {
+    text-align: center !important;
+ }
+#carousel #multimedia-carousel {
+    margin-left: auto !important;
+    margin-right: auto !important;
+ }
+h1.detail-title {
+    font-size: 27px !important;
+    line-height: 46px !important;
+}
+
+
+
