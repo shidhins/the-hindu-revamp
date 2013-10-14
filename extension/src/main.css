@@ -10,6 +10,12 @@
   font-weight: 500;
   src: local('Roboto Medium'), local('Roboto-Medium'), url('chrome-extension://__MSG_@@extension_id__/src/fonts/Roboto-Medium.woff') format('woff');
 }
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Roboto Light'), local('Roboto-Light'), url('chrome-extension://__MSG_@@extension_id__/src/fonts/Roboto-Light.woff') format('woff');
+}
 /*
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,500);
 */
@@ -83,7 +89,7 @@ div.right-tout div {
  }
 div.right-touts.photo-gallery {
     margin-bottom: 50px !important;
-    box-shadow: 0 0 2px rgba(0, 127, 255, 0.37) !important;
+    box-shadow: 0 0 3px rgba(0, 127, 255, 0.50) !important;
     border-radius: 4px !important;
     background: none !important;
  }
@@ -108,7 +114,7 @@ h3.headline-links a {
     padding-left: 20px !important;
  }
 div.right-tout {
-    box-shadow: 0 0 2px rgba(0, 127, 255, 0.37) !important;
+    box-shadow: 0 0 3px rgba(0, 127, 255, 0.50) !important;
     border-radius: 4px !important;
     background: none !important;
     margin-top: 40px !important;
@@ -120,7 +126,7 @@ div.mainrow.headline {
 div.courosel-row {
     background: white !important;
     margin-bottom: 50px !important;
-    box-shadow: 0 0 2px rgba(0, 127, 255, 0.37) !important;
+    box-shadow: 0 0 3px rgba(0, 127, 255, 0.50) !important;
     border-radius: 4px !important;
     margin-top: 10px !important;
     overflow: hidden !important;
@@ -167,7 +173,7 @@ div.smltitle1 h3 a {
     float: left !important;
  }
 div.row3-main-teaser h3 {
-    font-size: 16px !important;
+    font-size: 18px !important;
  }
 #keywordline {
     display: none !important;
@@ -206,10 +212,6 @@ a.closee {
     font-family: 'Roboto', sans-serif !important;
     font-size: 10px !important;
  }
-#firstlist a {
-    font-size: 12px !important;
-    font-weight: 500 !important;
- }
 div.right-touts.photo-gallery h5 {
     font-size: 16px !important;
     font-weight: 500 !important;
@@ -219,11 +221,7 @@ div.right a h3 {
     font-weight: 500 !important;
  }
 div.row3-main-teaser h3 a {
-    font-size: 16px !important;
- }
-div.middle-pad a h3 {
-    font-size: 16px !important;
-    font-weight: 500 !important;
+    font-size: 18px !important;
  }
 div.left a h3 {
     font-size: 18px !important;
@@ -248,12 +246,15 @@ h3.s-name {
     font-weight: 500 !important;
  }
 #editor-link h3 a {
-    font-size: 13px !important;
+    font-size: 16px !important;
     text-transform: uppercase !important;
     line-height: 18px !important;
     border-style: none !important;
-    font-weight: 500 !important;
+    font-weight: 400 !important;
  }
+#editor-link:first-child #editor h3 a {
+  font-weight: 500 !important;
+}
 div.right h1 a {
     font-size: 23px !important;
     font-weight: 500 !important;
@@ -307,7 +308,7 @@ img {
   padding-left: 1px !important;
 }
 a.tabhead {
-    font-size: 12px !important;
+    font-size: 13px !important;
     text-align: center !important;
     background: #E8E8E8 !important;
     color: #5d5d5d !important;
@@ -336,8 +337,8 @@ div.photo-caption {
 #most-tab {
     margin-bottom: 0 !important;
  }
-.row3 div.left a h3 {
-    font-size: 16px !important;
+.row3 div.left a h3, .row3 div.right h3, .row3 .middle-pad h3 {
+    font-size: 18px !important;
  }
 div.ad_below_label {
     display: none !important;
@@ -351,29 +352,7 @@ div.ad_below_background {
 #article-block .article-text {
     padding-top: 0px !important;
  }
-#subnav-bar {
-    background: #F4F4F4 !important;
-    height: 27px !important;
- }
-#subnav-bar a {
-    border-bottom-color: #F4F4F4 !important;
-    border-bottom-width: 3px !important;
- }
-#subnav-bar a.active, #subnav-bar a:hover {
-    border-bottom-color: #1F57A5 !important;
-    transition: border 0.4s ease !important;
-    border-bottom-width: 3px !important;
- }
-#nav-bar a.active , #nav-bar a:hover {
-    transition: background 0.4s ease !important;
-    background: #F4F4F4 !important;
- }
-#nav-bar a {
-    font-size: 15px !important;
-    font-weight: 500 !important;
-    text-transform: uppercase !important;
-    border: 0 !important;
- }
+
 div.right-tout.headlines {
     padding-bottom: 10px !important;
     padding-top: 10px !important;
@@ -416,10 +395,12 @@ p.body {
  }
 div.cm.cp.cl h4 {
     font-family: 'Roboto', sans-serif !important;
-    font-size: 13px !important;
+    font-size: 15px !important;
+    font-weight: 300 !important;
+    line-height: 22px !important;
  }
 div.cm.cp.cl.ep h4 {
-    font-weight: 500 !important;
+    font-weight: 400 !important;
  }
 div.cm.cp.cl.ep {
     background: white !important;
@@ -456,6 +437,60 @@ div.right-tout div.todays-paper {
     margin-left: 0 !important;
     margin-bottom: 0 !important;
  }
+
+ /* Navbar */
 #nav-bar {
     line-height: 18px !important;
  }
+ #subnav-bar {
+    background: #F4F4F4 !important;
+    height: 29px !important;
+ }
+#subnav-bar a {
+    border-bottom-color: #F4F4F4 !important;
+    border-bottom-width: 3px !important;
+    font-size: 14px !important;
+    font-weight: 300 !important;
+ }
+#subnav-bar a.active, #subnav-bar a:hover {
+    border-bottom-color: #1F57A5 !important;
+    transition: border 0.4s ease !important;
+    border-bottom-width: 3px !important;
+ }
+#nav-bar a.active , #nav-bar a:hover {
+    transition: background 0.4s ease !important;
+    background: #F4F4F4 !important;
+ }
+#nav-bar a {
+    font-size: 17px !important;
+    font-weight: 500 !important;
+    text-transform: uppercase !important;
+    border: 0 !important;
+ }
+
+#newsflash .title {
+  font-size: 14px !important;
+}
+#right-column div.headlines {
+  padding-bottom: 35px !important;
+}
+#right-column div.headlines a{
+  font-size: 14px !important;
+}
+
+/* Vote box */
+.comb_container {
+  box-shadow: 0 0 3px rgba(0, 127, 255, 0.50) !important;
+  border-width: 0 !important;
+}
+.comb_container b {
+  font-weight: normal !important;
+}
+.comb_container input {
+  margin-top: 10px !important;
+}
+
+/* Footer */
+.fmenu a {
+  font-weight: 400 !important;
+}

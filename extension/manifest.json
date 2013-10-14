@@ -1,6 +1,6 @@
 {
   "name": "The Hindu Revamp",
-  "version": "0.9.5",
+  "version": "1.0",
   "description": "An interface cleanup and refresh for The Hindu Website, featuring more whitespace, less clutter, no ads and clear typography",
   "icons": { "16": "icons/icon16.png",
              "48": "icons/icon48.png",
@@ -19,7 +19,8 @@
   ],
   "web_accessible_resources": [
     "src/fonts/Roboto-Regular.woff",
-    "src/fonts/Roboto-Medium.woff"
+    "src/fonts/Roboto-Medium.woff",
+    "src/fonts/Roboto-Light.woff"
   ],
   "manifest_version": 2
 }

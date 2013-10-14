@@ -4,8 +4,10 @@ div.rel-block-news h3 a {
 }
 
 p.body {
-    font-size: 17px !important;
+    font-size: 18px !important;
+    font-weight: 300;
     line-height: 26px !important;
+    text-align: justify !important;
 }
 
 #container {
@@ -18,6 +20,11 @@ p.body {
     padding-right: 0 !important;
     margin-left: 3% !important;
     margin-right: 3% !important;
+}
+
+#left-column.expand {
+  width: 94% !important;
+  transition: width 0.8s ease;
 }
 
 div.article-text {
@@ -36,6 +43,12 @@ div.article-text {
     padding-left: 0 !important;
 }
 
+#right-column.shrink {
+  width: 0% !important;
+  margin: 0% !important;
+  transition: width,margin 0.8s ease;
+}
+
 a.block-more {
     float: left !important;
     padding-left: 200px !important;
@@ -48,25 +61,25 @@ body {
 
 #right-column a h3 {
     font-size: 18px !important;
-    font-weight: bold !important;
+    font-weight: normal !important;
 }
 
 #right-column span.s-link {
     font-size: 18px !important;
-    font-weight: bold !important;
+    font-weight: normal !important;
 }
 
 div.smltitle1 h3 a {
-    font-size: 15px !important;
+    font-size: 14px !important;
 }
 
 div.smltitle h3 a {
-    font-size: 15px !important;
+    font-size: 14px !important;
 }
 
 div.right-touts.photo-gallery h5 {
     font-size: 18px !important;
-    font-weight: bold !important;
+    font-weight: normal !important;
 }
 
 #show-link h3 a {
@@ -156,6 +169,16 @@ h1.detail-title {
     font-size: 27px !important;
     line-height: 46px !important;
 }
-
-
-
+.articleLead h2 {
+  font-size: 18px !important;
+}
+#breaking-link {
+  font-size: 18px !important;
+  line-height: 30px;
+}
+a.tabhead {
+    width: 45% !important;
+}
+.tab-header a.tabhead:first-child {
+  padding-left: 0px !important;
+}
