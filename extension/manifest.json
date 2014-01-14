@@ -1,6 +1,6 @@
 {
   "name": "The Hindu Revamp",
-  "version": "1.5",
+  "version": "1.6",
   "description": "An interface cleanup for The Hindu website, focusing on content readability. More whitespace, less clutter and clear typography",
   "icons": { "16": "icons/icon16.png",
              "48": "icons/icon48.png",

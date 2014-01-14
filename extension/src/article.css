@@ -181,9 +181,3 @@ h1.detail-title {
   font-size: 18px !important;
   line-height: 30px;
 }
-a.tabhead {
-    width: 45% !important;
-}
-.tab-header a.tabhead:first-child {
-  padding-left: 0px !important;
-}
